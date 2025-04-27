@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     // <div className="relative min-h-screen bg-black selection:bg-sky-500/20 overflow-hidden">
-    <main className="relative px-6 pt-32">
+    <main className="relative px-6 pt-16">
       <div className="mx-auto max-w-5xl">
         {/* Hero Section */}
         <div className="flex flex-col items-center text-center">
@@ -57,7 +57,7 @@ export default function Home() {
               </button>
             </Link>
             <Link href={"/how-it-works"}>
-              <button className="flex h-12 items-center justify-center gap-2 rounded-xl bg-white/5 px-8 text-sm font-medium text-white ring-1 ring-inset ring-white/10 transition-all hover:bg-white/10">
+              <button className="flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-white/5 px-8 text-sm font-medium text-white ring-1 ring-inset ring-white/10 transition-all hover:bg-white/10">
                 How it Works
               </button>
             </Link>
