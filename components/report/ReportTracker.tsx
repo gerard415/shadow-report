@@ -52,8 +52,8 @@ export function ReportTracker() {
   return (
     <div className="w-full">
       {/* Header Section */}
-      <div className="text-center mb-8">
-        <div className="inline-flex h-9 items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 text-sm text-sky-400">
+      <div className="text-center  mb-8">
+        <div className={ reportDetails? `inline-flex mt-10 h-9 items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 text-sm text-sky-400` : 'inline-flex h-9 items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 text-sm text-sky-400' }>
           <Search className="w-4 h-4" />
           Track Your Report Status
         </div>
