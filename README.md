@@ -7,6 +7,7 @@ This cutting-edge anonymous reporting platform, built with Next.js 14, offers a 
 - Ability to track reports with the generated report Id
 - A fully responsive layout that adapts flawlessly to any device for a smooth, consistent experience.
 - A modern, A sleek, user-friendly admin dashboard designed to provide an outstanding experience.
+- Instantly analyze and generate a detailed description of any image by harnessing the capabilities of Gemini AI.
 
 ## Technology
 - Next.js
