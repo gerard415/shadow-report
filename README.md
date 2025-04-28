@@ -1,6 +1,6 @@
 # Anonymous Crime or Emergency Reporting Application
 
-This cutting-edge anonymous reporting platform, built with Next.js 14, offers a secure way to report incidents while fully protecting user anonymity.
+This cutting-edge anonymous reporting platform, built with Next.js, offers a secure way to report incidents while fully protecting user anonymity.
 
 ## Features
 - Seamlessly create anonymous reports that are safe and secure
