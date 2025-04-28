@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 import { useState, useEffect } from "react";
 import { AddressAutofill } from "@mapbox/search-js-react";
 import dynamic from "next/dynamic";
@@ -89,7 +89,7 @@ export function LocationInput({
         Location
       </label>
       <div className="relative">
-        <DynamicAddressAutofill accessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}>
+        <DynamicAddressAutofill accessToken={process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN!}>
           <div>
             <input
               type="text"
